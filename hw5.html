@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="listpendaftar.html">List Pendaftar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="formregistrasi.html">Form Registrasi</a>
+    </li>
+</ul>
+<style>
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: pink;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: pink;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+    
+        <div class="border-2 p-5 space-y-3 bg-teal-400 flex-auto w-80 p-5 max-w-md mr-5 rounded-md"></div>
+        <h1>FORM REGISTRASI</h1>
+        
+    <div>
+        <form action>
+        <label for="name">Nama </label>
+        <input type="text" id="name" name="Nama" placeholder="Nama minimal 10 karakter">
+
+        <label for="umur">Umur</label>
+        <input type="text" id="Umur" name="Umur" placeholder="Umur minimal 25 Tahun">
+
+        <label for="uang sangu">Uang Sangu</label>
+        <input type="text" id="uang_sangu" name="Uang_sangu" placeholder="Uang Sangu Minimal 100 rb dan Maksimal 1 jt">
+        
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+<style>
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+</style>
+    <div>
+        <div class="border-2 p-5 space-y-3 bg-teal-400 flex-auto w-80 p-5 max-w-md mr-5 rounded-md"></div>
+            <h1>LIST PENDAFTAR</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>NAMA</th>
+                    <th>UMUR</th>
+                    <th>UANG SANGU</th>
+                    <th>RATA UANG SANGU</th>
+                    <th>RATA UMUR</th>
+                </tr>
+            </thead>
+            <tbody id="table-body" class="text-center">
+                    <tr>
+                        <td>Jessica</td>
+                        <td>24 tahun</td>
+                        <td>1 Juta</td>
+                        <td>750 ribu</td>
+                        <td>24 tahun</td>
+                    </tr>
+                <tbody id="table-body" class="text-center">
+                    <tr>
+                            <td>Yoona</td>
+                            <td>20 tahun</td>
+                            <td>500 ribu</td>
+                            <td>500 ribu</td>
+                            <td>21 tahun</td>
+                        </tr>
+                <tbody id="table-body" class="text-center">
+                            <tr>
+                                <td>Taeyoon</td>
+                                <td>22 tahun</td>
+                                <td>750 ribu</td>
+                                <td>750 ribu</td>
+                                <td>22 tahun</td>
+                            </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="hw5.js"></script>
+
+</body>
+</html>
+
+
+
+
